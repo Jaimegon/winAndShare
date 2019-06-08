@@ -19,7 +19,7 @@ export class AccountsProvider {
 
   constructor(public http: HttpClient, private storage: Storage) {
     this.storage.set('money_lended', 0)
-    this.accessToken = 'AAIkOTgwYmVlMmUtMzA0NC00YzQ2LWEzY2YtZWI2OTQ2NWVkNzE5Wdkd3-uYYB7vaFRDeZ3WrEzTAinj3I-OXQjZHqCrJtkvu170WsQPV32FOlWpMW5r4jHLJX2VMtf8QVWMzHM7tRHqrEQzgLzXys_Lln_LprLgSipL7sY4TnRO_mZkDMyzBkk2ij6ufnBZM1RLyCtyQuRfZKgtq9Q7Zoz4uaQAtzs'
+    this.accessToken = 'AAIkOTgwYmVlMmUtMzA0NC00YzQ2LWEzY2YtZWI2OTQ2NWVkNzE5WW8QmEFEKkEpygeWH75FOZnhJ8fmX85AXD3wo0vmFVGsBlR7hbfQ8r3sP7NwBBbmULnQcCGgVyehpa8tsoFx-J5OvdJAVGFXszkwcn5T4PGmWSziQE8jkqFTKLNDALhLMv0KDPmf0oyfjZs-AbOMZ6KuoGRelz2B_pCcaOmgGLFp--YLebRiTi7KqVCRqxTb'
     this.storage.get('accessToken').then((val) => {
       console.log('Access token:', val);
       this.accessToken = val
