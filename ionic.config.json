@@ -1,0 +1,7 @@
+{
+  "name": "hackatonLiberbank",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
